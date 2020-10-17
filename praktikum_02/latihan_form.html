@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label>Masukan Nama Anda :</label>
+            <input type="text" name="nama" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Masukan Password Anda :</label>
+            <input type="password" name="pass" required>
+        </div>
+
+        <br>
+
+
+        <input type="hidden" name="status" value="member">
+        <div>
+            <label>Email Anda :</label>
+            <input type="email" name="emailku" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Pilih Warna Favorit :</label>
+            <input type="color" name="favcolor">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Tanggal Lahir :</label>
+            <input type="date" name="tgllahir">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Pilih angka 1-10 :</label>
+            <input type="range" name="nila" min="1" max="10">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Nilai UAS :</label>
+            <input type="number" name="nilai_uas">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Upload foto :</label>
+            <input type="file" name="photo">
+        </div>
+
+        <br>
+
+        <!-- checkbox & radio button -->
+        <div>
+            <label>Pilih menu : </label>
+            <input type="checkbox" name="menu1" value="y"> Ayam Geprek<br>
+            <input type="checkbox" name="menu2" value="y"> Gado-Gado<br>
+            <input type="checkbox" name="menu3" value="y"> Nasi Uduk<br>
+            <input type="checkbox" name="menu4" value="y"> Ayam Bakar<br>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Gender : </label>
+            <input type="radio" name="JK" value="L">Laki-Laki<br>
+            <input type="radio" name="JK" value="P">Perempuan<br>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Pilih Matku : </label>
+            <select name="matkul">
+                <option value="bd2">Basis Data 2</option>
+                <option value="web">Pemrograman Web</option>
+                <option value="sda">Struktur Data & Algotitma</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Catatan :</label>
+            <textarea name="catatan" rows="5" cols="50"> </textarea>
+
+        </div>
+        <br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="batal">
+    </form>
+</body>
+
+</html>
